@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+int main(){
+    char arr[100];
+    scanf("%[^\n]",arr);
+    
+    for(int i=0;i<strlen(arr);i++){
+        if(arr[i]!=' '){
+            printf("%c",arr[i]);
+            
+        }
+    }
+    
+}
